@@ -8,36 +8,39 @@
 	  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
     </head>
     <body>
-	<p> Click this to listen to some pumps </p>
-		<audio controls = "controls">
-			<source src = "./audio/pumps.mp3">
-			Your browser does not support the audio element.
-		</audio>
-	<div>
-      <h1> Heckin' Pockymans </h1>
-	<h2> Contributors:</h2>
-	<p> Jacob Arthur, Samuel Dias, and Andrew Mazer</p>
-
-	<p> You have been sent on a journey to defeat the almighty Bidoof.
-		The world is counting on you to win.</p>
-	<div>
-	<video width = "200" height = "150" controls = "controls" preload = "preload">
-	<source src = "./audio/Turkeyarmy.mp4"/></video>
-	</div>
-	
-	<ol>
-	<caption> Instructions </caption>
-		<li> Watch the turkey video to get yourself pumped up. </li>
-		<li> When you go to the next page,</li>
-		<li>you will be able to choose your champion to deliver us from Bidoof.</li>
-		<li> You can do it! Click on the "Choose Fighter!" button!</li>
-	</ol>
-
-	<form>
-		<button type="button" onclick = "window.location.href='choosefighter.html'">
-			Choose Fighter! </button>
-	</form>
-	
-	</div>
-    </body>
+		<div class="index">
+			 <h1> Heckin' Pockymans </h1>
+			 <h2>Hello! Welcome to Heckin Pockymans! It is up to you to 
+			 save the world with the aid of your Pockymans.
+			 Click this play button to listen to some pumps. </h2>
+				
+				<p class="audio">Click this to listen to some pumps!</p>
+				<audio controls = "controls">
+				<source src = "./audio/pumps.mp3">
+				Your browser does not support the audio element.
+				</audio>
+				
+				<ol class="index">
+				<caption> Instructions </caption>
+				<li> Watch the turkey video to get yourself pumped up. </li>
+				<li> When you go to the next page, you will be able to choose
+					your champion to deliver us from Bidoof.</li>
+				<li> You can do it! Click on the "Choose Fighter!" button!</li>
+			</ol>
+			
+				<div>
+					<video width = "200" height = "150" controls = "controls" preload = "preload">
+					<source src = "./audio/Turkeyarmy.mp4"/></video>
+				</div>
+				
+			<form class="index">
+				<button type="button" onclick = "window.location.href='choosefighter.html'">
+					Choose Fighter! </button>
+			</form>
+			
+			<div id="footer">
+						<h3>Copyright &copy; Jacob Arthur, Samuel Dias, Andrew Mazer 2018</h3>
+			</div>
+		</div>
+	</body>
   </html>
